@@ -1,1 +1,1 @@
-# kidz-world-functional-part-1
+# kidz-world-functional
