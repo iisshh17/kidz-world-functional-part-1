@@ -19,7 +19,7 @@
 
 .header{
     height: 80vh;
-    width: 98vw;
+    width: 100vw;
     background-image: url(assets/kw-background.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -124,3 +124,74 @@ h5{
 #last{
     font-size: 20px;
 }
+
+
+@media (max-width: 600px) {
+    #nav{
+    margin: 10px;
+    flex-direction: row; 
+    margin-right: 10px; 
+    margin-left: 10px;
+    }
+
+    h1{
+        font-size: 25px;
+        margin: 0;
+        top:11vh;
+    }
+
+    h2{
+        margin: 0;
+        top:28vh;
+        font-size: 17px;
+    }
+
+    .header{
+        height: 30vh;
+    }
+
+    .books{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .games{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 60px;
+    }
+
+    .gifts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pic{
+        padding-left: 10px;
+        height: 35vh;
+    }
+
+    .information{
+        font-size: 20px;
+    }
+
+    #last{
+        font-size: 10px;
+
+    }
+    .bottom{
+        width: 100vw;
+        margin:0;
+        padding:0;
+    }
+
+    .pic{
+        width: 95vw;
+    }
+
+}
+
